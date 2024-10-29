@@ -1,0 +1,70 @@
+body {
+	background-color: #ffffff;
+
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img {
+	margin: 20px;
+	box-shadow: 0px 0px 4px #825f01;
+}
+
+.head {
+	display: flex;
+	justify-content: center;
+	background-size: cover;
+	padding: 40px;
+	background-image: url(/assets/images/bg3.jpg);
+}
+
+h1 {
+	color: #febb05;
+	font-family: 'Paytone One', sans-serif;
+	font-size: 66px;
+	color: transparent;
+	-webkit-text-stroke: 1px #ffffff;
+
+}
+
+.recipes {
+	flex-wrap: wrap;
+}
+
+p {
+	padding-left: 20px;
+	font-size: 16px;
+	margin-top: -16px;
+	word-wrap: break-word;
+
+
+}
+
+a {
+	text-decoration: none;
+	color: #0a0907;
+	font-family: 'Secular One', sans-serif;
+	word-wrap: break-word;
+
+}
+
+#search {
+	flex: 1;
+	border: #febb05 2px solid;
+	padding: 8px;
+}
+
+.inputS {
+	display: flex;
+	margin-top: 30px;
+}
+
+@media all and (max-width:800px) {
+	h1 {
+		font-size: 40px;
+	}
+}
